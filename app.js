@@ -47,7 +47,7 @@ app.post('/failure',function(req,res) {
     
     const options={
     	method:"POST",
-    	auth:"aryan1:1c4f628098e93c33e7e792bcf581cbaf-us1"
+    	auth:"aryan1:6e365cdb8335c3537165e2a7a31841b2-us1"
     }
 
 	const requestserver=https.request(url,options,function(response){
