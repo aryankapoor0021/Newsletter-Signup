@@ -69,13 +69,6 @@ app.post('/failure',function(req,res) {
 
 	console.log(fname,lname,email);
 })
-app.listen(process.env.PORT || 3000,function(){
+app.listen(process.env.PORT || 3000 ,function(){
 	console.log("Server is up");
 })
-//apikey
-// 1c4f628098e93c33e7e792bcf581cbaf-us1
-
-
-
-//listid
-// 3faaa1e177
